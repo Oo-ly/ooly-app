@@ -20,3 +20,27 @@ The project is using React Native with [https://expo.io/](https://expo.io/). We 
 | `npm run ios`  | Start the development environement for iOS          |
 | `npm run web`   | Start the development environement for Web            |
 | `npm run eject`   | Eject the application from Expo           |
+
+
+## Coding guidelines
+
+### Git
+
+We use **Gitflow** as our Git workflow. [More explanation here.](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+### Code style & format
+
+#### Styles
+
+- We use **Prettier** ([https://prettier.io/](https://prettier.io/)) as code formatting tool. The configuration is written in `.prettierrc` at the root of the project. **You must NOT edit this file.**
+- We use **2 _(two)_ spaces** for indentation.
+
+#### Naming
+
+- We use **camelCase** for `variables`, `properties`, `functions` and `methods`.
+- We use **PascalCase** for `classes`.
+
+### Rules
+
+Before pushing code, please make sure to :
+- **Clean and refactor** code.
